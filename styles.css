@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgrey;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    border: solid 5px black;
+    margin: 20px;
+    text-align: left;
+    background-color: white;
+}
+
+.container h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.container h2 span {
+    font-size: 14px; }
+
+.container p {
+    padding: 10px;
+}
